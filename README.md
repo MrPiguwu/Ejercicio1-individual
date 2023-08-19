@@ -1,2 +1,2 @@
 # Ejercicio1-individual
-**Programa Boletos
+**Programa Boletos Javier Escobar**
