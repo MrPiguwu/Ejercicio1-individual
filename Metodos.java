@@ -168,7 +168,7 @@ public class Metodos {
                         }
                     }
                 } else {
-                    System.out.println("La cantida de boletos de que deseas comprar sobrepasa tu presupuesto. Vuelve a intentarlo");
+                    System.out.println("La cantidad de boletos de que deseas comprar sobrepasa tu presupuesto. Vuelve a intentarlo");
                 }
                 break;
         }
