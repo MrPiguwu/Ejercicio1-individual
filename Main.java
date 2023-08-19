@@ -28,7 +28,7 @@ public class Main{
                         System.out.println("Presupuesto maximo: presupuesto minimo (400$)");
                         int prUser = sc.nextInt();
 
-                        calcMethods cm = new calcMethods();
+                        Metodos cm = new Metodos();
 
                         if (cm.sumTotal() == true){
                             cm.verPresupuesto(prUser);
@@ -41,23 +41,23 @@ public class Main{
                         System.out.println("Presupuesto maximo: presupuesto minimo (400$)");
                         int prUser2 = sc.nextInt();
 
-                        calcMethods cms = new calcMethods();
+                        Metodos cms = new Metodos();
                         if (cms.sumTotal() == true){
                             cms.verPresupuesto(prUser2);
                         } else {
                             break;
                         }
                     case 3:
-                        calcMethods cmss = new calcMethods();
+                        Metodos cmss = new Metodos();
                         cmss.verVentas();
                         break;
                     case 4:
-                        calcMethods cmc = new calcMethods();
+                        Metodos cmc = new Metodos();
                         cmc.verLocalidades();
                         break;
 
                     case 5:
-                        calcMethods cmj = new calcMethods();
+                        Metodos cmj = new Metodos();
                         cmj.verGanancia();
                         break;
                     case 6:
