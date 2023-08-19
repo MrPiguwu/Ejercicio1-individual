@@ -1,7 +1,6 @@
-import java.util.Random;
 import java.util.Scanner;
 
-public class calcMethods {
+public class Metodos {
     static int loc1 = 20;
     static int loc5 = 20;
     static int loc10 = 20;
